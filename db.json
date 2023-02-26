@@ -3,6 +3,43 @@
     {
       "id": 1,
       "nome": "Alura Tracker"
+    },
+    {
+      "id": 2,
+      "nome": "Plano de estudos"
+    },
+    {
+      "nome": "Novo",
+      "id": 3
+    }
+  ],
+  "tarefas": [
+    {
+      "id": 1,
+      "duracaoEmSegundos": 120,
+      "descricao": "Configuração do ambiente",
+      "projeto": {
+        "id": 1,
+        "nome": "Alura Tracker"
+      }
+    },
+    {
+      "duracaoEmSegundos": 3,
+      "descricao": "Estudando vue",
+      "projeto": {
+        "id": 2,
+        "nome": "Plano de estudos"
+      },
+      "id": 2
+    },
+    {
+      "duracaoEmSegundos": 3,
+      "descricao": "Teste",
+      "projeto": {
+        "nome": "Novo",
+        "id": 3
+      },
+      "id": 3
     }
   ]
 }
